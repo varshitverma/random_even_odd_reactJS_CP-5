@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 25px;
+  font-family: 'Roboto';
+}
+
+.card {
+  border-style: none;
+  border-radius: 16px;
+  padding: 40px 30px 60px 30px;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}
+
+.head-count {
+  font-size: 35px;
+}
+
+.count-type {
+  font-size: 20px;
+  color: #334155;
+  margin-top: 25px;
+}
+
+.button {
+  padding: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ffffff;
+  border-style: none;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.para {
+  font-size: 13px;
+  font-weight: 500;
+  color: #334155;
+}
